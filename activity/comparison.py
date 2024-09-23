@@ -1,4 +1,4 @@
-from find_square_root_integer import (
+from activity.find_square_root_integer import (
     find_square_root_integer,
     find_square_root_integer_linear
 )
