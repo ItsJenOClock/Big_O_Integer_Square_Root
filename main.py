@@ -1,5 +1,5 @@
-from find_square_root_integer import find_square_root_integer
-# from comparison import check_many_values, timing
+from activity.find_square_root_integer import find_square_root_integer
+# from activity.comparison import check_many_values, timing
 
 def check_some_values():
     print(find_square_root_integer(0))  # 0
