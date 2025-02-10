@@ -1,5 +1,6 @@
 # Returns the closest integer (rounded down) to the
 # square root of the parameter `squared_number`
+# O(log n), where n is the magnitude of the input value
 def find_square_root_integer(squared_number):    
     max_of_search = squared_number + 1
     floor_of_search = 0
@@ -22,6 +23,7 @@ def find_square_root_integer(squared_number):
         elif squared_num_to_check < squared_number:
             floor_of_search = number_to_check
 
+# O(n)
 def find_square_root_integer_linear(squared_number):
     for i in range(squared_number + 1):
         if i * i > squared_number:
